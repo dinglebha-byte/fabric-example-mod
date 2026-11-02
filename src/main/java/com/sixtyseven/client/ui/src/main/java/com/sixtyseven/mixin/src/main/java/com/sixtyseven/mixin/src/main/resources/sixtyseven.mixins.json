@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.sixtyseven.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChunkPacketMixin",
+    "ClientPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
