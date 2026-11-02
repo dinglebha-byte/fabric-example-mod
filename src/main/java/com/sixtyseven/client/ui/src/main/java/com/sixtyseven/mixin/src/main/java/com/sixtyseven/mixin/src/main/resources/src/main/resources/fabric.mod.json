@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "67client",
+  "version": "1.0.0",
+  "name": "67client",
+  "description": "Base finder, sus chunk finder, anticheat disabler. Red UI. Mobile optimised.",
+  "authors": ["Olivia"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.sixtyseven.client.SixtySevenClient"]
+  },
+  "mixins": ["sixtyseven.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  }
+}
